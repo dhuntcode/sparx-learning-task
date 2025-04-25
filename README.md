@@ -44,7 +44,7 @@ This project contains a Jupyter Notebook (`analysis.ipynb`) that performs an ana
 *(Based on the current state of the notebook execution)*
 
 * **Q1: Common Students:** 1394 distinct students have both assessment and activity data.
-* **Q2: Mean Progress:** For students with at least two assessments, the mean progress (change in percentage score) between consecutive assessments was approximately -2.59%. *(Note: Exact value depends on the final execution)*.
+* **Q2: Mean Progress:** For students with at least two assessments, the mean progress (change in percentage score) between consecutive assessments was approximately -2.59%..
 * **Q3: Progress Distribution:** A histogram/density plot visualizing the distribution of progress values was generated.
 * **Q4: First vs. Second Test Performance:**
     * 1388 students were compared after handling missing data.
@@ -54,7 +54,6 @@ This project contains a Jupyter Notebook (`analysis.ipynb`) that performs an ana
 * **Q5: Improving Confidence:** Confidence in the Q4 result could be improved by controlling for confounding variables like assessment difficulty or time between tests using statistical models.
 * **Exploratory Question (Sparx Usage & Performance):**
     * An analysis framework was set up to explore the link between Sparx usage (total correct answers) and performance on the second assessment, controlling for the first assessment score.
-    * **Note:** The regression model execution (using `statsmodels`) is currently commented out in the notebook. Running this model is required to determine the specific association found.
     * **Conclusion:** Any conclusion about whether Sparx usage is associated with improved performance requires running the regression model. Even with a result, this observational analysis cannot prove causation due to potential confounding factors (motivation, teaching, etc.).
 * **Stretch Question (Personalization):**
     * Activity data can be modelled (e.g., using Logistic Regression) to predict student struggle on specific topics/tasks based on features like historical success, time spent, etc.
