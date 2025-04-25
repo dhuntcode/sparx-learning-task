@@ -2,7 +2,7 @@
 
 ## Description
 
-This project contains a Jupyter Notebook (`sparx_analysis_notebook.ipynb` or similar) that performs an analysis of student assessment and homework activity data provided for a technical task. The analysis addresses mandatory questions about student progress and comparisons, an exploratory question about the potential impact of Sparx usage on performance, and a stretch question about using activity data for personalization.
+This project contains a Jupyter Notebook (`analysis.ipynb`) that performs an analysis of student assessment and homework activity data provided for a technical task. The analysis addresses mandatory questions about student progress and comparisons, an exploratory question about the potential impact of Sparx usage on performance, and a stretch question about using activity data for personalization.
 
 ## Setup Instructions
 
@@ -10,7 +10,6 @@ This project contains a Jupyter Notebook (`sparx_analysis_notebook.ipynb` or sim
 
 * **Python:** Version 3.12 or higher recommended.
 * **Poetry:** A Python dependency management and packaging tool. ([Installation Guide](https://python-poetry.org/docs/#installation))
-* **Git:** (Optional, but recommended for version control).
 
 ### Installation
 
